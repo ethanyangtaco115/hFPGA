@@ -20,3 +20,8 @@ A modified PicoEVB FPGA board made for rapid prototyping, DIY projects, and maki
 - 6 True Single-Ended GPIO Pins
 - 15 Differential Lines, with Pseudo-Single Ended capability
 - 24 GND Pins
+
+# Authors
+
+Created by [Ethan Yang](https://github.com/ethanyangtaco115) & Stanley Wang 
+
