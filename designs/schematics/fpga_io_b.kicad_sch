@@ -41413,7 +41413,7 @@
 		(uuid "feb9610c-fd86-4cf9-8def-0aed95f02171")
 	)
 	(global_label "DIO_10_N"
-		(shape output)
+		(shape input)
 		(at 142.24 93.98 0)
 		(effects
 			(font
@@ -41433,7 +41433,7 @@
 		)
 	)
 	(global_label "DIO_14_P"
-		(shape output)
+		(shape input)
 		(at 142.24 121.92 0)
 		(effects
 			(font
@@ -41453,7 +41453,7 @@
 		)
 	)
 	(global_label "DIO_10_P"
-		(shape output)
+		(shape input)
 		(at 142.24 91.44 0)
 		(effects
 			(font
@@ -41473,7 +41473,7 @@
 		)
 	)
 	(global_label "XADC_0_P"
-		(shape output)
+		(shape input)
 		(at 62.23 35.56 180)
 		(effects
 			(font
@@ -41493,7 +41493,7 @@
 		)
 	)
 	(global_label "DIO_15_N"
-		(shape output)
+		(shape input)
 		(at 134.62 160.02 0)
 		(effects
 			(font
@@ -41513,7 +41513,7 @@
 		)
 	)
 	(global_label "DIO_9_N"
-		(shape output)
+		(shape input)
 		(at 142.24 83.82 0)
 		(effects
 			(font
@@ -41533,7 +41533,7 @@
 		)
 	)
 	(global_label "DIO_6_P"
-		(shape output)
+		(shape input)
 		(at 62.23 147.32 180)
 		(effects
 			(font
@@ -41573,7 +41573,7 @@
 		)
 	)
 	(global_label "XADC_1_P"
-		(shape output)
+		(shape input)
 		(at 62.23 40.64 180)
 		(effects
 			(font
@@ -41593,7 +41593,7 @@
 		)
 	)
 	(global_label "GPIO_5"
-		(shape output)
+		(shape input)
 		(at 220.98 167.64 0)
 		(effects
 			(font
@@ -41613,7 +41613,7 @@
 		)
 	)
 	(global_label "DIO_5_P"
-		(shape output)
+		(shape input)
 		(at 62.23 142.24 180)
 		(effects
 			(font
@@ -41633,7 +41633,7 @@
 		)
 	)
 	(global_label "DIO_13_N"
-		(shape output)
+		(shape input)
 		(at 142.24 114.3 0)
 		(effects
 			(font
@@ -41653,7 +41653,7 @@
 		)
 	)
 	(global_label "XADC_0_N"
-		(shape output)
+		(shape input)
 		(at 62.23 38.1 180)
 		(effects
 			(font
@@ -41673,7 +41673,7 @@
 		)
 	)
 	(global_label "DIO_2_N"
-		(shape output)
+		(shape input)
 		(at 62.23 119.38 180)
 		(effects
 			(font
@@ -41693,7 +41693,7 @@
 		)
 	)
 	(global_label "XADC_2_P"
-		(shape output)
+		(shape input)
 		(at 62.23 55.88 180)
 		(effects
 			(font
@@ -41713,7 +41713,7 @@
 		)
 	)
 	(global_label "DIO_8_P"
-		(shape output)
+		(shape input)
 		(at 142.24 76.2 0)
 		(effects
 			(font
@@ -41733,7 +41733,7 @@
 		)
 	)
 	(global_label "DIO_14_N"
-		(shape output)
+		(shape input)
 		(at 142.24 124.46 0)
 		(effects
 			(font
@@ -41753,7 +41753,7 @@
 		)
 	)
 	(global_label "DIO_8_N"
-		(shape output)
+		(shape input)
 		(at 142.24 78.74 0)
 		(effects
 			(font
@@ -41773,7 +41773,7 @@
 		)
 	)
 	(global_label "XADC_2_N"
-		(shape output)
+		(shape input)
 		(at 62.23 58.42 180)
 		(effects
 			(font
@@ -41793,7 +41793,7 @@
 		)
 	)
 	(global_label "DIO_1_N"
-		(shape output)
+		(shape input)
 		(at 62.23 114.3 180)
 		(effects
 			(font
@@ -41813,7 +41813,7 @@
 		)
 	)
 	(global_label "DIO_7_P"
-		(shape output)
+		(shape input)
 		(at 45.72 151.13 180)
 		(effects
 			(font
@@ -41833,7 +41833,7 @@
 		)
 	)
 	(global_label "MRCC_Out_0"
-		(shape output)
+		(shape input)
 		(at 62.23 91.44 180)
 		(effects
 			(font
@@ -41853,7 +41853,7 @@
 		)
 	)
 	(global_label "DIO_11_P"
-		(shape output)
+		(shape input)
 		(at 142.24 96.52 0)
 		(effects
 			(font
@@ -41893,7 +41893,7 @@
 		)
 	)
 	(global_label "VCC_BANK14_B"
-		(shape input)
+		(shape output)
 		(at 212.09 45.72 180)
 		(effects
 			(font
@@ -41933,7 +41933,7 @@
 		)
 	)
 	(global_label "DIO_12_P"
-		(shape output)
+		(shape input)
 		(at 142.24 106.68 0)
 		(effects
 			(font
@@ -41953,7 +41953,7 @@
 		)
 	)
 	(global_label "VCC_BANK14_B"
-		(shape input)
+		(shape output)
 		(at 184.15 160.02 180)
 		(effects
 			(font
@@ -41973,7 +41973,7 @@
 		)
 	)
 	(global_label "XADC_1_N"
-		(shape output)
+		(shape input)
 		(at 62.23 43.18 180)
 		(effects
 			(font
@@ -42013,7 +42013,7 @@
 		)
 	)
 	(global_label "DIO_2_P"
-		(shape output)
+		(shape input)
 		(at 62.23 116.84 180)
 		(effects
 			(font
@@ -42033,7 +42033,7 @@
 		)
 	)
 	(global_label "DIO_16_N"
-		(shape output)
+		(shape input)
 		(at 134.62 165.1 0)
 		(effects
 			(font
@@ -42053,7 +42053,7 @@
 		)
 	)
 	(global_label "DIO_13_P"
-		(shape output)
+		(shape input)
 		(at 142.24 111.76 0)
 		(effects
 			(font
@@ -42073,7 +42073,7 @@
 		)
 	)
 	(global_label "DIO_0_P"
-		(shape output)
+		(shape input)
 		(at 62.23 50.8 180)
 		(effects
 			(font
@@ -42093,7 +42093,7 @@
 		)
 	)
 	(global_label "MRCC_Out_2"
-		(shape output)
+		(shape input)
 		(at 62.23 96.52 180)
 		(effects
 			(font
@@ -42113,7 +42113,7 @@
 		)
 	)
 	(global_label "MRCC_Out_1"
-		(shape output)
+		(shape input)
 		(at 62.23 93.98 180)
 		(effects
 			(font
@@ -42133,7 +42133,7 @@
 		)
 	)
 	(global_label "MRCC_Out_3"
-		(shape output)
+		(shape input)
 		(at 62.23 99.06 180)
 		(effects
 			(font
@@ -42153,7 +42153,7 @@
 		)
 	)
 	(global_label "DIO_3_N"
-		(shape output)
+		(shape input)
 		(at 62.23 124.46 180)
 		(effects
 			(font
@@ -42173,7 +42173,7 @@
 		)
 	)
 	(global_label "VCC_BANK14_B"
-		(shape input)
+		(shape output)
 		(at 147.32 35.56 180)
 		(effects
 			(font
@@ -42193,7 +42193,7 @@
 		)
 	)
 	(global_label "GPIO_0"
-		(shape output)
+		(shape input)
 		(at 62.23 33.02 180)
 		(effects
 			(font
@@ -42213,7 +42213,7 @@
 		)
 	)
 	(global_label "DIO_5_N"
-		(shape output)
+		(shape input)
 		(at 62.23 144.78 180)
 		(effects
 			(font
@@ -42233,7 +42233,7 @@
 		)
 	)
 	(global_label "GPIO_4"
-		(shape output)
+		(shape input)
 		(at 226.06 20.32 0)
 		(effects
 			(font
@@ -42253,7 +42253,7 @@
 		)
 	)
 	(global_label "VCC_BANK15_B"
-		(shape input)
+		(shape output)
 		(at 60.96 160.02 180)
 		(effects
 			(font
@@ -42273,7 +42273,7 @@
 		)
 	)
 	(global_label "DIO_0_N"
-		(shape output)
+		(shape input)
 		(at 62.23 53.34 180)
 		(effects
 			(font
@@ -42293,7 +42293,7 @@
 		)
 	)
 	(global_label "FPGA_CCLK_0_B"
-		(shape input)
+		(shape output)
 		(at 177.8 58.42 0)
 		(effects
 			(font
@@ -42313,7 +42313,7 @@
 		)
 	)
 	(global_label "DIO_4_P"
-		(shape output)
+		(shape input)
 		(at 62.23 132.08 180)
 		(effects
 			(font
@@ -42333,7 +42333,7 @@
 		)
 	)
 	(global_label "DIO_9_P"
-		(shape output)
+		(shape input)
 		(at 142.24 81.28 0)
 		(effects
 			(font
@@ -42353,7 +42353,7 @@
 		)
 	)
 	(global_label "VCC_BANK34_B"
-		(shape input)
+		(shape output)
 		(at 137.16 200.66 0)
 		(effects
 			(font
@@ -42373,7 +42373,7 @@
 		)
 	)
 	(global_label "DIO_16_P"
-		(shape output)
+		(shape input)
 		(at 134.62 162.56 0)
 		(effects
 			(font
@@ -42393,7 +42393,7 @@
 		)
 	)
 	(global_label "DIO_11_N"
-		(shape output)
+		(shape input)
 		(at 142.24 99.06 0)
 		(effects
 			(font
@@ -42413,7 +42413,7 @@
 		)
 	)
 	(global_label "XADC_3_N"
-		(shape output)
+		(shape input)
 		(at 62.23 68.58 180)
 		(effects
 			(font
@@ -42433,7 +42433,7 @@
 		)
 	)
 	(global_label "DIO_12_N"
-		(shape output)
+		(shape input)
 		(at 142.24 109.22 0)
 		(effects
 			(font
@@ -42453,7 +42453,7 @@
 		)
 	)
 	(global_label "DIO_15_P"
-		(shape output)
+		(shape input)
 		(at 134.62 157.48 0)
 		(effects
 			(font
@@ -42473,7 +42473,7 @@
 		)
 	)
 	(global_label "DIO_6_N"
-		(shape output)
+		(shape input)
 		(at 62.23 149.86 180)
 		(effects
 			(font
@@ -42493,7 +42493,7 @@
 		)
 	)
 	(global_label "DIO_4_N"
-		(shape output)
+		(shape input)
 		(at 62.23 134.62 180)
 		(effects
 			(font
@@ -42513,7 +42513,7 @@
 		)
 	)
 	(global_label "XADC_3_P"
-		(shape output)
+		(shape input)
 		(at 62.23 66.04 180)
 		(effects
 			(font
@@ -42533,7 +42533,7 @@
 		)
 	)
 	(global_label "DIO_1_P"
-		(shape output)
+		(shape input)
 		(at 62.23 111.76 180)
 		(effects
 			(font
@@ -42553,7 +42553,7 @@
 		)
 	)
 	(global_label "DIO_3_P"
-		(shape output)
+		(shape input)
 		(at 62.23 121.92 180)
 		(effects
 			(font
@@ -42573,7 +42573,7 @@
 		)
 	)
 	(global_label "GPIO_2"
-		(shape output)
+		(shape input)
 		(at 142.24 73.66 0)
 		(effects
 			(font
@@ -42593,7 +42593,7 @@
 		)
 	)
 	(global_label "GPIO_3"
-		(shape output)
+		(shape input)
 		(at 144.78 196.85 0)
 		(effects
 			(font
@@ -42613,7 +42613,7 @@
 		)
 	)
 	(global_label "DIO_7_N"
-		(shape output)
+		(shape input)
 		(at 45.72 153.67 180)
 		(effects
 			(font
@@ -42643,7 +42643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000586a5920")
-		(property "Reference" "U1D"
+		(property "Reference" "U1D1"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -43662,7 +43662,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323a"
-					(reference "U1D")
+					(reference "U1D1")
 					(unit 4)
 				)
 			)
@@ -43678,7 +43678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000586a5977")
-		(property "Reference" "U1C"
+		(property "Reference" "U1C1"
 			(at 69.85 26.67 0)
 			(effects
 				(font
@@ -44697,7 +44697,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323a"
-					(reference "U1C")
+					(reference "U1C1")
 					(unit 3)
 				)
 			)
@@ -44817,7 +44817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
+		(property "Footprint" "fp_archive:SOIC-8_3.9x4.9mm_Pitch1.27mm"
 			(at 162.56 36.83 0)
 			(effects
 				(font
@@ -44922,7 +44922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDs:LED_0402"
+		(property "Footprint" "fp_archive:LED_0402"
 			(at 207.01 152.4 0)
 			(effects
 				(font
@@ -45006,7 +45006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDs:LED_0402"
+		(property "Footprint" "fp_archive:LED_0402"
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -45074,7 +45074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000594f31e6")
-		(property "Reference" "U1B"
+		(property "Reference" "U1B1"
 			(at 223.52 26.67 0)
 			(effects
 				(font
@@ -46093,7 +46093,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323a"
-					(reference "U1B")
+					(reference "U1B1")
 					(unit 2)
 				)
 			)
@@ -46188,7 +46188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDs:LED_0402"
+		(property "Footprint" "fp_archive:LED_0402"
 			(at 207.01 144.78 0)
 			(effects
 				(font
@@ -46272,7 +46272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_Array_Convex_4x0402"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
 			(at 193.04 156.845 90)
 			(effects
 				(font
@@ -46366,7 +46366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_Array_Convex_4x0402"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
 			(at 194.31 34.925 90)
 			(effects
 				(font

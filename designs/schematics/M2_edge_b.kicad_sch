@@ -4662,12 +4662,24 @@
 		(uuid "b99570f9-4022-4373-a94c-18c7da27160f")
 	)
 	(no_connect
+		(at 185.42 77.47)
+		(uuid "c157d093-fbee-400f-8115-678699dd93dd")
+	)
+	(no_connect
 		(at 185.42 85.09)
 		(uuid "c54eae4f-e084-47e5-96c6-7fe81a2a003a")
 	)
 	(no_connect
+		(at 154.94 77.47)
+		(uuid "cac53094-31e5-47c6-9758-e1a62b81a3b8")
+	)
+	(no_connect
 		(at 185.42 31.75)
 		(uuid "e22e9339-562f-4baf-8dda-e4402f5114ae")
+	)
+	(no_connect
+		(at 185.42 80.01)
+		(uuid "e2846256-1da3-4c25-a3f7-5dcb5fee2fe8")
 	)
 	(no_connect
 		(at 167.64 24.13)
@@ -4688,6 +4700,10 @@
 	(no_connect
 		(at 154.94 82.55)
 		(uuid "f094dd58-6064-43b2-9dff-125e1e50ca91")
+	)
+	(no_connect
+		(at 154.94 80.01)
+		(uuid "f39bf307-c835-41ad-b3f5-541506a0d386")
 	)
 	(no_connect
 		(at 185.42 36.83)
@@ -4954,7 +4970,7 @@
 		(uuid "f7d44d48-adb5-4e4a-b413-1cf40150c4fa")
 	)
 	(global_label "MGT1_TX_B+"
-		(shape input)
+		(shape output)
 		(at 123.19 72.39 180)
 		(effects
 			(font
@@ -5034,7 +5050,7 @@
 		)
 	)
 	(global_label "MGT0_TX_B-"
-		(shape input)
+		(shape output)
 		(at 123.19 69.85 180)
 		(effects
 			(font
@@ -5054,7 +5070,7 @@
 		)
 	)
 	(global_label "MGT_REFCLK0_B+"
-		(shape input)
+		(shape output)
 		(at 128.27 44.45 180)
 		(effects
 			(font
@@ -5094,7 +5110,7 @@
 		)
 	)
 	(global_label "MGT0_TX_B+"
-		(shape input)
+		(shape output)
 		(at 123.19 67.31 180)
 		(effects
 			(font
@@ -5134,7 +5150,7 @@
 		)
 	)
 	(global_label "MGT_REFCLK0_B-"
-		(shape input)
+		(shape output)
 		(at 128.27 46.99 180)
 		(effects
 			(font
@@ -5174,7 +5190,7 @@
 		)
 	)
 	(global_label "MGT1_TX_B-"
-		(shape input)
+		(shape output)
 		(at 123.19 74.93 180)
 		(effects
 			(font
@@ -5727,7 +5743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68cd7d7f-242f-4833-96ce-b5184fb79ad7")
-		(property "Reference" "R_CC_PD"
+		(property "Reference" "R_CC_PD1"
 			(at 78.74 127 90)
 			(effects
 				(font
@@ -5743,7 +5759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 78.74 135.128 90)
 			(effects
 				(font
@@ -5779,7 +5795,7 @@
 		(instances
 			(project ""
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000588189a7"
-					(reference "R_CC_PD")
+					(reference "R_CC_PD1")
 					(unit 1)
 				)
 			)
@@ -6451,7 +6467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Plug_JAE_DX07P024AJ1"
 			(at 62.23 143.51 0)
 			(effects
 				(font
