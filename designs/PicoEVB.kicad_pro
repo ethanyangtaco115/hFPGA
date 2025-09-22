@@ -51,7 +51,13 @@
           "min_clearance": 0.0762
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -183,7 +189,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -210,7 +218,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -487,7 +500,7 @@
         "microvia_drill": 0.2032,
         "name": "100OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0762,
         "via_diameter": 0.4064,
@@ -504,11 +517,20 @@
         "microvia_drill": 0.2032,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.4064,
         "via_drill": 0.2032,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 4,
+        "name": "PWR_INDVIDUAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
       }
     ],
@@ -747,252 +769,32 @@
         "pattern": "GND"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_INDVIDUAL",
         "pattern": "P1V0_MGTAVCC_B"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_INDVIDUAL",
         "pattern": "P1V0_VCC_FPGA_B"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_INDVIDUAL",
         "pattern": "P1V2_MGTAVTT_B"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_INDVIDUAL",
         "pattern": "P1V8_FPGA_VCCAUX_B"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_INDVIDUAL",
         "pattern": "VCC_BANK14_B"
       },
       {
-        "netclass": "Default",
-        "pattern": "MGT1_TX_B-"
+        "netclass": "PWR_INDVIDUAL",
+        "pattern": "VCC_BANK34_B"
       },
       {
-        "netclass": "Default",
-        "pattern": "MGT1_TX_B+"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MGT1_RX_B-"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MGT1_RX_B+"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GPIO_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GPIO_1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GPIO_3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GPIO_4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GPIO_5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GPIO_6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MRCC_Out_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MRCC_Out_1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MRCC_Out_2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MRCC_Out_3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_0_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_0_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_1_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_1_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_2_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_2_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_3_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "XADC_3_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_0_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_0_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_1_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_1_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_2_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_2_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_3_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_3_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_4_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_4_N"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "IO_CONN_3V3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_5_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_5_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_6_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_6_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_7_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_7_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_8_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_8_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_9_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_9_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_10_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_10_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_11_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_11_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_12_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_12_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_13_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_13_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_14_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_14_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_15_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_15_N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_16_P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DIO_16_N"
+        "netclass": "PWR_INDVIDUAL",
+        "pattern": "VCC_BANK15_B"
       }
     ]
   },
@@ -1074,14 +876,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1111,6 +937,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "A:/Ethan/Downloads/",
     "space_save_all_events": true,
