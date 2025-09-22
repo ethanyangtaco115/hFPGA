@@ -14691,6 +14691,16 @@
 		)
 		(uuid "56550bcb-b443-48c4-83e2-e7b6598ff027")
 	)
+	(text "probing points???"
+		(exclude_from_sim no)
+		(at 94.996 152.4 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "814473c4-d15d-4093-976d-848da0bf4598")
+	)
 	(text "Mark \"ALH\""
 		(exclude_from_sim no)
 		(at 181.61 53.34 0)
@@ -14796,12 +14806,6 @@
 		(uuid "56eca930-6651-4ae6-ad17-781a6299750a")
 	)
 	(junction
-		(at 102.87 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f48983b-d081-4ace-9748-502e51bc961d")
-	)
-	(junction
 		(at 205.74 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14850,6 +14854,12 @@
 		(uuid "6def24cf-0e72-485a-b826-6a9f2b0f6f63")
 	)
 	(junction
+		(at 173.99 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7234d05e-d344-4e49-8b42-4111b8c5bd70")
+	)
+	(junction
 		(at 36.83 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14860,12 +14870,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "833be8c5-4746-4b93-b5c6-eca83c628ab0")
-	)
-	(junction
-		(at 173.99 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9afebd40-ae48-47ff-9380-fb4d9d6f13e1")
 	)
 	(junction
 		(at 173.99 46.99)
@@ -14993,6 +14997,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 39.37) (xy 175.26 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3ea8a7-a100-4336-af93-6b5664e46266")
+	)
+	(wire
+		(pts
 			(xy 205.74 91.44) (xy 217.17 91.44)
 		)
 		(stroke
@@ -15060,16 +15074,6 @@
 			(type default)
 		)
 		(uuid "1d7ed68a-cc9f-4da3-acda-59f0ecb8388a")
-	)
-	(wire
-		(pts
-			(xy 173.99 39.37) (xy 175.26 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f15d290-584d-4031-a030-49b15442ebad")
 	)
 	(wire
 		(pts
@@ -15240,16 +15244,6 @@
 			(type default)
 		)
 		(uuid "46d62318-fd4d-44e0-8552-40ba115e0941")
-	)
-	(wire
-		(pts
-			(xy 109.22 85.09) (xy 109.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "477692b9-68b3-420b-808c-6e9dd17bd77c")
 	)
 	(polyline
 		(pts
@@ -15743,16 +15737,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 102.87 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcf11bdb-8a03-4f6f-9244-fe0f8cb8798f")
-	)
-	(wire
-		(pts
 			(xy 154.94 59.69) (xy 175.26 59.69)
 		)
 		(stroke
@@ -15893,16 +15877,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 102.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f28d776b-af72-433f-b720-b39bce274214")
-	)
-	(wire
-		(pts
 			(xy 29.21 41.91) (xy 21.59 41.91)
 		)
 		(stroke
@@ -15930,16 +15904,6 @@
 			(type dash)
 		)
 		(uuid "f6b4b32d-ad21-44a0-bf21-5a00a362d655")
-	)
-	(wire
-		(pts
-			(xy 109.22 92.71) (xy 109.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d395d9-7e3d-4f16-ac84-811e2d856dd1")
 	)
 	(wire
 		(pts
@@ -15983,16 +15947,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 102.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb946f52-9802-4dfe-8a00-e254721dc963")
-	)
-	(wire
-		(pts
 			(xy 227.33 107.95) (xy 232.41 107.95)
 		)
 		(stroke
@@ -16032,7 +15986,7 @@
 		(uuid "ff55164b-a0ed-4784-b53a-2f091781bfd9")
 	)
 	(global_label "P1V2_MGTAVTT_B"
-		(shape output)
+		(shape input)
 		(at 226.06 59.69 0)
 		(effects
 			(font
@@ -16092,7 +16046,7 @@
 		)
 	)
 	(global_label "P1V0_VCC_FPGA_B"
-		(shape output)
+		(shape input)
 		(at 231.14 91.44 0)
 		(effects
 			(font
@@ -16152,7 +16106,7 @@
 		)
 	)
 	(global_label "P1V8_FPGA_VCCAUX_B"
-		(shape output)
+		(shape input)
 		(at 218.44 27.94 0)
 		(effects
 			(font
@@ -16171,28 +16125,8 @@
 			)
 		)
 	)
-	(global_label "IO_CONN_3V3"
-		(shape output)
-		(at 102.87 96.52 270)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "e82bb300-103d-4d70-9fc1-bb352f2f6337")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P1V0_MGTAVCC_B"
-		(shape output)
+		(shape input)
 		(at 226.06 39.37 0)
 		(effects
 			(font
@@ -17629,7 +17563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0603"
+		(property "Footprint" "fp_archive:C_0603"
 			(at 218.1352 100.33 0)
 			(effects
 				(font
@@ -17841,7 +17775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 233.3752 107.95 0)
 			(effects
 				(font
@@ -17927,7 +17861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 240.9952 107.95 0)
 			(effects
 				(font
@@ -18013,7 +17947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 218.1352 67.31 0)
 			(effects
 				(font
@@ -18162,7 +18096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 216.8652 46.99 0)
 			(effects
 				(font
@@ -18311,7 +18245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 91.1352 52.07 0)
 			(effects
 				(font
@@ -18458,7 +18392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Wire_Pads:SolderWirePad_single_SMD_1x1mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 68.58 148.59 0)
 			(effects
 				(font
@@ -18522,7 +18456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Wire_Pads:SolderWirePad_single_SMD_1x1mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 68.58 152.4 0)
 			(effects
 				(font
@@ -18586,7 +18520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Wire_Pads:SolderWirePad_single_SMD_1x1mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 68.58 156.21 0)
 			(effects
 				(font
@@ -18650,7 +18584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Wire_Pads:SolderWirePad_single_SMD_1x1mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -18714,7 +18648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Wire_Pads:SolderWirePad_single_SMD_1x1mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 68.58 163.83 0)
 			(effects
 				(font
@@ -18778,7 +18712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Wire_Pads:SolderWirePad_single_SMD_1x1mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 68.58 167.64 0)
 			(effects
 				(font
@@ -18970,7 +18904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0603"
+		(property "Footprint" "fp_archive:C_0603"
 			(at 84.7852 52.07 0)
 			(effects
 				(font
@@ -19999,7 +19933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 37.7952 92.71 0)
 			(effects
 				(font
@@ -20085,7 +20019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 45.4152 92.71 0)
 			(effects
 				(font
@@ -20171,7 +20105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0805"
+		(property "Footprint" "fp_archive:C_0805"
 			(at 51.7652 92.71 0)
 			(effects
 				(font
@@ -20287,218 +20221,6 @@
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323b"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_11")
-		(lib_id "PicoEVB-rescue:C")
-		(at 109.22 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "312a2d53-46d9-47f9-8239-785f437b28d2")
-		(property "Reference" "C70"
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.47uf"
-			(at 115.824 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SMT:c_0201_least"
-			(at 108.2548 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "cc0201krx5r5bb104"
-			(at 109.22 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "~"
-			(at 109.22 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63565af7-1385-4312-80d8-113c002bbc95")
-		)
-		(pin "1"
-			(uuid "ffad6d89-0bf2-4b89-8b2b-0cf7d162c374")
-		)
-		(instances
-			(project "PicoEVB"
-				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323b"
-					(reference "C70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_6")
-		(lib_id "PicoEVB-rescue:+3V3")
-		(at 102.87 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37d3177f-627f-4f0e-806a-f43b7155f400")
-		(property "Reference" "#PWR079"
-			(at 102.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 102.87 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61ff2a55-64e9-4b37-89a8-20bffa6254f4")
-		)
-		(instances
-			(project "PicoEVB"
-				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323b"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_24")
-		(lib_id "PicoEVB-rescue:GND")
-		(at 109.22 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e746b360-aa4b-4829-b928-8653b0160057")
-		(property "Reference" "#PWR080"
-			(at 109.22 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7399603a-56f9-4f7c-9ac4-2bae24348713")
-		)
-		(instances
-			(project "PicoEVB"
-				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323b"
-					(reference "#PWR080")
 					(unit 1)
 				)
 			)

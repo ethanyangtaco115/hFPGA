@@ -3450,7 +3450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm"
+		(property "Footprint" "fp_archive:QFN65P400X400X80-17N"
 			(at 116.84 60.96 0)
 			(effects
 				(font
