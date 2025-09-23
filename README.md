@@ -23,5 +23,5 @@ A modified PicoEVB FPGA board made for rapid prototyping, DIY projects, and maki
 
 # Authors
 
-Created by [Ethan Yang](https://github.com/ethanyangtaco115) & Stanley Wang 
+Created by [Ethan Yang](https://github.com/ethanyangtaco115) & [Stanley Wang](https://github.com/GhostWinterOwl)
 
