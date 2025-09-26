@@ -1,0 +1,339 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "425a64d6-34ec-416c-8211-1f7c9aeb5428")
+	(paper "A")
+	(title_block
+		(title "hFPGA")
+		(date "2025-09-16")
+		(rev "D")
+		(company "Ethan Yang (github.com/ethanyangtaco115) & Stanely Wang")
+		(comment 1 "A modification of the PicoEVB (github.com/RHSResearchLLC/PicoEVB)")
+		(comment 2 "An expansion")
+	)
+	(lib_symbols)
+	(text "no block diagram, too lazy"
+		(exclude_from_sim no)
+		(at 108.204 66.548 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "3eaf419e-cbf0-4f2e-9d36-ea3a0d807600")
+	)
+	(text "TOP LEVEL"
+		(exclude_from_sim no)
+		(at 161.29 177.8 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+				(thickness 0.5994)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d76e32f-6714-4878-980f-291fdf01320f")
+	)
+	(sheet
+		(at 27.94 186.69)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005881899d")
+		(property "Sheetname" "FPGA Power & Config"
+			(at 27.94 185.8514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_pwr_cfg_b.kicad_sch"
+			(at 27.94 200.0762 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 166.37)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000588189a5")
+		(property "Sheetname" "USB JTAG Chip"
+			(at 99.06 165.5314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_IO_b.kicad_sch"
+			(at 99.06 179.7562 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 186.69)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000588189a7")
+		(property "Sheetname" "High Speed IO"
+			(at 99.06 185.8514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M2_edge_b.kicad_sch"
+			(at 99.06 200.0762 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 166.37)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000594f3239")
+		(property "Sheetname" "FPGA PCIe"
+			(at 67.31 165.5314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_pcie_b.kicad_sch"
+			(at 67.31 179.7562 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 186.69)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000594f323a")
+		(property "Sheetname" "FPGA IO"
+			(at 67.31 185.8514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_io_b.kicad_sch"
+			(at 67.31 200.0762 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 166.37)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000594f323b")
+		(property "Sheetname" "Power"
+			(at 27.94 165.5314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_b.kicad_sch"
+			(at 27.94 179.7562 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 149.86)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19ec1fee-c8cb-4416-955e-acac2ff92e77")
+		(property "Sheetname" "Header IO"
+			(at 27.94 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "header_io.kicad_sch"
+			(at 27.94 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
