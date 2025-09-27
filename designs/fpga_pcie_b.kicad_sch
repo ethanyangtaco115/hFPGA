@@ -14644,7 +14644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000586a5889")
-		(property "Reference" "U1E1"
+		(property "Reference" "U1"
 			(at 120.65 45.72 0)
 			(effects
 				(font
@@ -15663,7 +15663,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f3239"
-					(reference "U1E1")
+					(reference "U1")
 					(unit 5)
 				)
 			)

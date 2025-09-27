@@ -44794,7 +44794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000586a5710")
-		(property "Reference" "U1F1"
+		(property "Reference" "U1"
 			(at 175.26 13.97 0)
 			(effects
 				(font
@@ -45813,7 +45813,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-00005881899d"
-					(reference "U1F1")
+					(reference "U1")
 					(unit 6)
 				)
 			)
@@ -49616,7 +49616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000594f3202")
-		(property "Reference" "U1A1"
+		(property "Reference" "U1"
 			(at 115.57 106.68 0)
 			(effects
 				(font
@@ -49634,7 +49634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XC7A50T-CSG325:CSG-324"
+		(property "Footprint" ""
 			(at 114.3 110.49 0)
 			(effects
 				(font
@@ -49657,23 +49657,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Xilinx"
-			(at 114.3 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XC7A50T-2CSG325C"
-			(at 134.62 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -50652,7 +50635,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-00005881899d"
-					(reference "U1A1")
+					(reference "U1")
 					(unit 1)
 				)
 			)

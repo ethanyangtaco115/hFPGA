@@ -42643,7 +42643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000586a5920")
-		(property "Reference" "U1D1"
+		(property "Reference" "U1"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -43662,7 +43662,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323a"
-					(reference "U1D1")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -43678,7 +43678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000586a5977")
-		(property "Reference" "U1C1"
+		(property "Reference" "U1"
 			(at 69.85 26.67 0)
 			(effects
 				(font
@@ -44697,7 +44697,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323a"
-					(reference "U1C1")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -45074,7 +45074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000594f31e6")
-		(property "Reference" "U1B1"
+		(property "Reference" "U1"
 			(at 223.52 26.67 0)
 			(effects
 				(font
@@ -46093,7 +46093,7 @@
 		(instances
 			(project "PicoEVB"
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000594f323a"
-					(reference "U1B1")
+					(reference "U1")
 					(unit 2)
 				)
 			)
