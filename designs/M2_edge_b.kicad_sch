@@ -143,7 +143,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
+			(property "Reference" "#PWR017"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -166,7 +166,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -175,7 +174,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
@@ -184,16 +182,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(symbol "+3V3_2_0_1"
@@ -4543,6 +4531,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "MGT differential lines and power through PCIe x4 Bus"
 		(exclude_from_sim no)
@@ -4597,6 +4686,30 @@
 		)
 		(uuid "fe402983-8cb9-405b-9d55-2d0d622a7695")
 	)
+	(junction
+		(at 172.72 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b158a2-c90f-4094-9512-7825ea68e8e1")
+	)
+	(junction
+		(at 170.18 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11175b0f-5c8e-4ecb-8382-a1c7a9a9227d")
+	)
+	(junction
+		(at 172.72 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24e0e792-9745-44f5-bf94-f5beca5f447e")
+	)
+	(junction
+		(at 170.18 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb0c39ee-e1ed-4479-9cd9-78e5281664de")
+	)
 	(no_connect
 		(at 185.42 57.15)
 		(uuid "05290e40-25f5-49de-a224-dd0e815cbf4a")
@@ -4616,10 +4729,6 @@
 	(no_connect
 		(at 154.94 57.15)
 		(uuid "44d60067-07e3-4464-862e-41d0566f0ada")
-	)
-	(no_connect
-		(at 170.18 24.13)
-		(uuid "4b4a4c6a-2b0a-4b29-b82f-1922b75b946d")
 	)
 	(no_connect
 		(at 185.42 46.99)
@@ -4682,10 +4791,6 @@
 		(uuid "e2846256-1da3-4c25-a3f7-5dcb5fee2fe8")
 	)
 	(no_connect
-		(at 167.64 24.13)
-		(uuid "e43b62a2-11c5-4503-b45f-9007bcbbae94")
-	)
-	(no_connect
 		(at 154.94 54.61)
 		(uuid "e4c8d01c-41d3-4889-bfbb-66690abf5d10")
 	)
@@ -4708,6 +4813,56 @@
 	(no_connect
 		(at 185.42 36.83)
 		(uuid "f830c321-a7df-472b-bfc8-11811c72fcd9")
+	)
+	(wire
+		(pts
+			(xy 167.64 24.13) (xy 167.64 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f0ac3c-00da-4d0e-af8d-ad88ae2482e5")
+	)
+	(wire
+		(pts
+			(xy 180.34 21.59) (xy 172.72 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e59b6f5-9604-49f1-8242-568c61852ff6")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207db7c4-22ac-4914-88f5-a01ce35901d7")
+	)
+	(wire
+		(pts
+			(xy 170.18 22.86) (xy 170.18 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ab93cc-508d-488f-98e4-f36b6e180c6a")
+	)
+	(wire
+		(pts
+			(xy 172.72 22.86) (xy 172.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e18ac3a-d88f-41a1-8b15-468f70ac6e1d")
 	)
 	(wire
 		(pts
@@ -4821,7 +4976,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 92.71) (xy 170.18 96.52)
+			(xy 170.18 92.71) (xy 170.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4831,13 +4986,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 21.59) (xy 172.72 24.13)
+			(xy 170.18 22.86) (xy 172.72 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96165c14-94cd-438b-b69d-eab6bee22e3f")
+		(uuid "8fa034d9-668a-46c0-9497-8f08aeecb353")
+	)
+	(wire
+		(pts
+			(xy 167.64 22.86) (xy 170.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bf5c74-24cb-4c6e-970e-9fa02780c34b")
 	)
 	(wire
 		(pts
@@ -4931,6 +5096,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 21.59) (xy 172.72 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00e0cd1-d8b8-4ff3-8da8-1808dd1d09e4")
+	)
+	(wire
+		(pts
 			(xy 154.94 46.99) (xy 144.78 46.99)
 		)
 		(stroke
@@ -4968,6 +5143,16 @@
 			(type default)
 		)
 		(uuid "f7d44d48-adb5-4e4a-b413-1cf40150c4fa")
+	)
+	(wire
+		(pts
+			(xy 172.72 21.59) (xy 172.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffef97b4-3724-4dd0-9cb3-20672dc1444b")
 	)
 	(global_label "MGT1_TX_B+"
 		(shape output)
@@ -5204,6 +5389,38 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 166.37 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e586ffcd-cb09-4973-9d18-90086c70cf70")
+		(property "Netclass" "PWR"
+			(at 163.83 20.9601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -36.83 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
@@ -5728,6 +5945,73 @@
 			(project ""
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000588189a7"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 180.34 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ae6217-9239-47b7-af6f-32acc7416dfc")
+		(property "Reference" "#FLG01"
+			(at 182.245 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 184.15 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 180.34 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7f5e621-75cb-49b5-8e24-a3ac4b59d376")
+		)
+		(instances
+			(project ""
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000588189a7"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6537,6 +6821,73 @@
 			(project ""
 				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000588189a7"
 					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 170.18 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9a44af-b2b5-4364-9592-1ab44f166a85")
+		(property "Reference" "#FLG02"
+			(at 168.275 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e19670ec-aa4c-4ffc-9027-c5f1daf1e6af")
+		)
+		(instances
+			(project "PicoEVB"
+				(path "/425a64d6-34ec-416c-8211-1f7c9aeb5428/00000000-0000-0000-0000-0000588189a7"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
