@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMQ62440BPPQRJRRQ1
+D Switching Voltage Regulators Automotive 3-V to 36-V, 4-A, low-noise fixed frequency synchronous step-down converter
+K
+F https://www.ti.com/lit/ds/symlink/lmq62440-q1.pdf
+$ENDCMP
+#
+#End Doc Library
