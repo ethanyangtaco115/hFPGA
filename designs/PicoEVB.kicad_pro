@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2032,
-          "height": 0.499999,
-          "width": 0.499999
+          "drill": 1.75,
+          "height": 2.75,
+          "width": 2.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -128,7 +128,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
@@ -526,11 +526,19 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.075946,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 4,
+        "microvia_diameter": 0.4064,
+        "microvia_drill": 0.2032,
         "name": "PWR_INDVIDUAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       }
     ],
@@ -807,7 +815,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "A:/Ethan/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
