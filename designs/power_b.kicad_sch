@@ -17527,6 +17527,7 @@
 		(lib_name "C_12")
 		(lib_id "PicoEVB-rescue:C")
 		(at 217.17 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17534,7 +17535,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000586de91d")
 		(property "Reference" "C64"
-			(at 213.36 93.98 0)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17552,7 +17553,7 @@
 			)
 		)
 		(property "Footprint" "fp_archive:C_0603"
-			(at 218.1352 100.33 0)
+			(at 216.2048 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
